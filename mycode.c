@@ -4,8 +4,14 @@
 * main - Entry point of the code
 * Return: success (0)
 */
+
 int main(void)
 {
-	puts("\"My name is barry allen and i am the fastest man alive");
+	char message[] = "Hello, world!";
+	int x = 42;
+	/* Using puts */
+	puts(message);  /* Outputs "Hello, world!\n" */
+	/*Using printf */
+	printf("The answer is %d.\n", x);  /* Outputs "The answer is 42.\n" */
 	return (0);
 }
