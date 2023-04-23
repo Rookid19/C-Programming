@@ -31,3 +31,8 @@ In this script, the gcc command is used with the -E option to run the C file thr
 #!/bin/bash
 gcc -c $CFILE -o "${CFILE%.c}.o"
 ```
+# Write a script that generates the assembly code of a C code and save it in an output file.
+```
+#!/bin/bash
+gcc -S $CFILE -o "${CFILE%.c}.s"
+```
